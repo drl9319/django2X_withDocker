@@ -7,3 +7,4 @@ This repository have a docker container for run django 2X with a SQLlite DB
 *   **Re-Build image**: sudo docker build --no-cache -t django2x_withdocker .
 *   **Docker image list**: sudo docker image ls
 *   **Run Docker image**: In django2X_withDocker directory run: sudo docker-compose up
+*   **Use local folder in your Docker container** :sudo docker run -t -i -v /your_url:/my_application ubuntu /bin/bash
