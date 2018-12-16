@@ -1,2 +1,7 @@
 Django>=2.1.3
 psycopg2
+djangorestframework
+markdown
+django-filter
+requests
+json
